@@ -1,0 +1,172 @@
+/*
+* Prefixed by https://autoprefixer.github.io
+* PostCSS: v7.0.29,
+* Autoprefixer: v9.7.6
+* Browsers: last 4 version
+*/
+
+body{
+    font-family: 'Archy EDT';
+}
+header{
+    width: 80%;
+    height: 80px;
+    -webkit-box-pack: justify;
+        -ms-flex-pack: justify;
+            justify-content: space-between;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    margin: 20px auto;
+}
+.flex{
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+}
+.second-search{
+    display: none;
+}
+.margin-right{
+    margin-right: 50px;
+}
+.img-div{
+    width: 80px;
+}
+.img-div img{
+    width: 100%;
+}
+.menu{
+    width: calc(100%/2);
+}
+.search{
+    display: none;
+}
+.ul {
+    -webkit-box-pack: justify;
+        -ms-flex-pack: justify;
+            justify-content: space-between;
+}
+li a{
+    color: black;
+}
+.width{
+    width: 80%;
+    margin: auto;
+}
+.banner img{
+    width: 100%;
+}
+.popular{
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+}
+.post-box{
+    width: calc(100% / 3 - 20px);
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    -webkit-box-pack: justify;
+        -ms-flex-pack: justify;
+            justify-content: space-between;
+    -webkit-box-shadow: 0px 3px 6px  #e2e2e2;
+            box-shadow: 0px 3px 6px  #e2e2e2;
+}
+.post-box img{
+    width: 100%;
+}
+h2{
+    margin: 50px 0;
+    font-size: 40px;
+}
+h4{
+    margin: 10px 0;
+    font-size: 25px;
+}
+.post-box p{
+    font-size: 13px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.more{
+    margin: 50px 10px 10px 0;
+    color: black;
+    -ms-flex-item-align: end;
+        align-self: flex-end;
+}
+.loadmore{
+    color: black;
+    margin-top: 30px;
+    -ms-flex-item-align: center;
+        -ms-grid-row-align: center;
+        align-self: center;
+    border-bottom: 1px solid grey;
+}
+.lastAdded{
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+}
+footer{
+    width: 100%;
+    background: #2E2E2E;
+    margin-top: 100px;
+    -ms-flex-pack: distribute;
+        justify-content: space-around;
+    color: white;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    padding: 20px;
+}
+@media (max-width: 480px){
+    .menu{
+        display: none;
+    }
+    .banner{
+        width: 100%;
+    }
+    .second-search {
+        display: block;
+    }
+    .popular{
+        -webkit-box-orient: vertical;
+        -webkit-box-direction: normal;
+            -ms-flex-direction: column;
+                flex-direction: column;
+    }
+    .container{
+        -webkit-box-orient: vertical;
+        -webkit-box-direction: normal;
+            -ms-flex-direction: column;
+                flex-direction: column;
+    }
+    .lastAdded{
+        -webkit-box-orient: vertical;
+        -webkit-box-direction: normal;
+            -ms-flex-direction: column;
+                flex-direction: column;
+    }
+    .post-box{
+        width: 100%;
+        margin-top: 40px;
+        margin-right: 0;
+    }
+    footer{
+        -webkit-box-orient: vertical;
+        -webkit-box-direction: normal;
+            -ms-flex-direction: column;
+                flex-direction: column;
+    }
+    footer > div{
+        width: 100%;
+        margin: 20px 0;
+        text-align: center;
+    }
+    .logo-img{
+        display: none;
+    }
+}
